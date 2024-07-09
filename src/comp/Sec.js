@@ -20,7 +20,7 @@ function Sec({ contract, account, provider }) {
   };
 
   return (
-    <div className="pb-3">
+    <div className="pb-3 d-flex justify-content-center align-items-center">
       <form onSubmit={SetCandidate}>
         <div className="form-group p-2">
           <label>Address</label>

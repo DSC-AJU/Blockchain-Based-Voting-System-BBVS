@@ -41,7 +41,7 @@ function Vote({ contract, account, provider }) {
   };
 
   return (
-    <div>
+    <div className="d-flex justify-content-center align-items-center">
       <br></br>
       <div>
         <button

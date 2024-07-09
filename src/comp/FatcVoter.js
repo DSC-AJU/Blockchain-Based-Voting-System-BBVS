@@ -14,8 +14,8 @@ function FatcVoter({ contract, account, provider }) {
   }, [contract]);
 
   return (
-    <div>
-      <p className="text-dark h3">Voters Information</p>
+    <div className="d-flex justify-content-center align-items-center">
+      <p className="text-light h3">Voter's Information</p>
       {voters.map((voter) => {
         return (
           <div key={Math.random()}>

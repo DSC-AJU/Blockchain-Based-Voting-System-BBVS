@@ -40,11 +40,11 @@ function Propsal({ contract, account, provider }) {
   };
 
   return (
-    <div>
+    <div className="d-flex justify-content-center align-items-center">
       <br></br>
-      <button onClick={ToPropsal} className="btn btn-primary">
+{/*       <button onClick={ToPropsal} className="btn btn-primary">
         Send Proposal For Next Election!{" "}
-      </button>
+      </button> */}
       {showpropsal && (
         <form onSubmit={SetPropsalFc} className="form-group">
           <div className="m-3">
@@ -76,9 +76,9 @@ function Propsal({ contract, account, provider }) {
       <br></br>
 
       <div className="mt-3">
-        {/* <p className="text-dark h3">Next Candidates</p> */}
+        {/* <p className="text-light h3">Next Candidates</p> */}
         <button onClick={Fatch} className="btn btn-success">
-          Fatch Next Candidates
+          Fetch Next Candidates
         </button>
         {candidates.map((candidate) => {
           return (

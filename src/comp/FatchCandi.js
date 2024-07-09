@@ -15,8 +15,8 @@ function FatchCandi({ contract, account, provider }) {
   }, [contract]);
 
   return (
-    <div>
-      <p className="text-dark h3">Candidates</p>
+    <div className="d-flex justify-content-center align-items-center">
+      <p className="text-light h3">Candidates</p>
       {candidates.map((candidate) => {
         return (
           <div key={Math.random()}>

@@ -64,7 +64,7 @@ function App() {
       style={{
         width: 1000,
         marginTop: 25,
-        backgroundColor: "rgb(135,62,35)",
+        backgroundColor: "rgb(0,0,0)",
       }}
     >
       <p className="text-center h5 text-warning p-2">
