@@ -6,7 +6,6 @@ function Propsal({ contract, account, provider }) {
   const [showpropsal, setshowprosal] = useState(false);
   const [candidates, setCandidates] = useState([]);
   const [loading, setLoading] = useState(false);
-  
   console.log();
   console.log("vote comp");
   const ToPropsal = () => {
