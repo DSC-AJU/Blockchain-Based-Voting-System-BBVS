@@ -15,15 +15,6 @@ Languages used
 2. ether.js
 3. solidity
 
-Live Demo
-https://voting.netlify.app/
-
-Goerli TestNet
-https://goerli.etherscan.io/address/0x0fee2908afda3d25e876c05ed5a6b9e40c37d909#code
-
-YouTube
-https://www.youtube.com/watch?v=oJgENg8aFBA
-
 
 #HOW TO RUN
 Install all packeges by command - npm install
